@@ -21,9 +21,5 @@ public class Time1Test {
     System.out.println(time.toUniversalString());
     System.out.print("Valor default depois de de valores invalidos: ");
     System.out.println(time.toString() + "\n");
-
-    time.hora = 20;
-    time.minuto = 15;
-    time.segundo = 12;
  }
 }

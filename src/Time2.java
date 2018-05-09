@@ -25,10 +25,6 @@ public class Time2 {
     }
 
     public void setHora(int h) {
-        hora = h;
-    }
-
-    public void setHora(int h) {
         hora = ((h >= 0 && h < 24) ? h : 0);
     }
 
